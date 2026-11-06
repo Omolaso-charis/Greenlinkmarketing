@@ -1,0 +1,135 @@
+/* Campaign page: builds on css/styles.css */
+
+.campaign-nav { display: flex; align-items: center; gap: 1.25rem; }
+.nav-link-quiet { font-weight: 600; font-size: 0.92rem; color: var(--ink); text-decoration: none; }
+.nav-link-quiet:hover { color: var(--green); }
+.btn-block { width: 100%; }
+
+.hero-note { font-size: 0.9rem; margin-top: 1.25rem; color: var(--muted); }
+
+/* Challenge rows */
+.pain-list {
+  list-style: none;
+  padding: 0;
+  margin: 2.5rem 0 0;
+  display: grid;
+  gap: 1.25rem;
+}
+.pain {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+}
+.pain-num { font-weight: 800; font-size: 1.1rem; color: var(--green); padding-top: 0.1rem; }
+.pain h3 { margin-bottom: 0.4rem; }
+.pain-fix { border-left: 3px solid var(--green); padding-left: 1rem; }
+.pain-fix span {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--green-dark);
+  margin-bottom: 0.3rem;
+}
+.pain-fix p { margin: 0; color: var(--ink); }
+
+/* Route cards */
+.section-intro { margin-bottom: 2rem; }
+.card-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 700;
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.card-link:hover { text-decoration: underline; }
+
+/* Events */
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.event-card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow);
+}
+.event-card p { flex: 1; }
+.event-card h3 { margin-bottom: 0.5rem; }
+.event-date {
+  align-self: flex-start;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--green-dark);
+  background: var(--green-soft);
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+}
+.event-card .btn { align-self: flex-start; margin-top: 1rem; }
+
+/* Quote section */
+.quote-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+  gap: 3rem;
+  align-items: start;
+}
+.quote-aside p { margin-bottom: 0.75rem; }
+.quote-aside h2 { margin-bottom: 1rem; }
+.text-link { font-weight: 700; color: var(--green-dark); text-decoration: none; }
+.text-link:hover { text-decoration: underline; }
+.quote-layout .quote-form { padding: 2rem; }
+.form-status { min-height: 1.5rem; }
+.quote-layout .confirmation { align-self: start; }
+
+/* Sticky phone CTA */
+.mobile-cta { display: none; }
+
+@media (max-width: 960px) {
+  .quote-layout { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 860px) {
+  .pain { grid-template-columns: auto 1fr; }
+  .pain-fix { grid-column: 2; }
+}
+
+@media (max-width: 760px) {
+  .pain { grid-template-columns: 1fr; }
+  .pain-fix { grid-column: auto; }
+  .campaign-nav .nav-link-quiet { display: none; }
+  .quote-layout .quote-form { padding: 1.25rem; }
+  .mobile-cta {
+    display: flex;
+    gap: 0.6rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 60;
+    padding: 0.75rem 4%;
+    background: var(--white);
+    border-top: 1px solid var(--line);
+    box-shadow: 0 -6px 18px rgba(20, 35, 26, 0.08);
+  }
+  .mobile-cta .btn { flex: 1; text-align: center; padding: 0.7rem 0.6rem; font-size: 0.92rem; }
+  .campaign-page { padding-bottom: 5rem; }
+}
+
+@media (max-width: 400px) {
+  .campaign-nav .btn { padding: 0.45rem 0.8rem; }
+}
