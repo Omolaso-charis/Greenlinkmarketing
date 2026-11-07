@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-label="Green handbag beside the words Your design. Our factory.">
+  <rect width="600" height="480" fill="#DCFCE7"/>
+  <circle cx="470" cy="110" r="110" fill="#BBF7D0"/>
+  <text x="48" y="92" font-family="Manrope, Arial, sans-serif" font-size="44" font-weight="800" fill="#14231A">Your design.</text>
+  <text x="48" y="146" font-family="Manrope, Arial, sans-serif" font-size="44" font-weight="800" fill="#15803D">Our factory.</text>
+  <g transform="translate(60 121) scale(1.2)">
+    <path d="M150 150 Q150 66 200 66 Q250 66 250 150" fill="none" stroke="#2B1D14" stroke-width="10"/>
+    <rect x="115" y="140" width="170" height="125" rx="16" fill="#15803D"/>
+    <path d="M115 150 H285 V196 Q200 218 115 196 Z" fill="#166534"/>
+    <rect x="188" y="190" width="24" height="18" rx="4" fill="#E8A33D"/>
+  </g>
+</svg>

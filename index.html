@@ -31,7 +31,7 @@
     </a>
     <nav class="campaign-nav" aria-label="Campaign">
       <a href="https://greenlinksourcing.netlify.app/" class="nav-link-quiet">Visit website</a>
-      <a href="#quote" class="btn btn-primary btn-small">Get a quote</a>
+      <a href="https://greenlinksourcing.netlify.app/quote.html" class="btn btn-primary btn-small">Get a quote</a>
     </nav>
   </div>
 </header>
@@ -46,14 +46,32 @@
         <h1>Make your own shoes and bags, without the sourcing headache.</h1>
         <p class="lead">Green Link finds the right factory in China, checks it on the ground, and manages production and shipping to Lagos port. You bring the design. We handle the rest.</p>
         <div class="hero-actions">
-          <a href="#quote" class="btn btn-primary">Request a Quote</a>
+          <a href="https://greenlinksourcing.netlify.app/quote.html" class="btn btn-primary">Request a Quote</a>
           <a href="#events" class="btn btn-outline">See upcoming events</a>
         </div>
         <p class="hero-note">Quotes in USD &middot; Reply within two working days, Lagos time</p>
       </div>
-      <figure class="hero-art">
-        <img src="images/hero-shoes-bags.jpg" alt="Leather shoes and handbags on a cream background (illustrative)" width="1200" height="960" fetchpriority="high">
-        <figcaption>Illustrative image</figcaption>
+      <figure class="hero-art hero-slideshow" data-slideshow>
+        <div class="slides">
+          <div class="slide is-active" aria-hidden="false">
+            <img src="images/hero-shoes-bags.jpg" alt="Leather shoes and handbags on a cream background (illustrative)" width="1200" height="960" fetchpriority="high">
+          </div>
+          <div class="slide" aria-hidden="true">
+            <img src="images/slide-2.svg" alt="Green handbag beside the words: Your design. Our factory." width="600" height="480">
+          </div>
+          <div class="slide" aria-hidden="true">
+            <img src="images/slide-3.svg" alt="Brown leather loafers beside the words: From sketch to store." width="600" height="480">
+          </div>
+          <div class="slide" aria-hidden="true">
+            <img src="images/slide-4.svg" alt="Tote bag and green wallet beside the words: Made to sell. Delivered to Lagos." width="600" height="480">
+          </div>
+        </div>
+        <div class="slide-controls">
+          <button type="button" class="slide-btn" data-prev aria-label="Previous image">&larr;</button>
+          <div class="slide-dots"></div>
+          <button type="button" class="slide-btn" data-next aria-label="Next image">&rarr;</button>
+        </div>
+        <figcaption>Illustrative images</figcaption>
       </figure>
     </div>
   </section>
@@ -124,19 +142,19 @@
           <h3>Custom orders</h3>
           <p>Full sourcing, sampling and production for your own designs. Our main focus.</p>
           <p class="moq">Minimum: 300 pairs or 200 bags per style</p>
-          <a href="#quote" class="card-link" data-service="Custom order">Request this option &rarr;</a>
+          <a href="https://greenlinksourcing.netlify.app/quote.html" class="card-link" data-service="Custom order">Request this option &rarr;</a>
         </article>
         <article class="card tier-card">
           <h3>Private label</h3>
           <p>A factory-made shoe or bag with your logo, colours or minor changes.</p>
           <p class="moq">Minimum: 50 per style</p>
-          <a href="#quote" class="card-link" data-service="Private label">Request this option &rarr;</a>
+          <a href="https://greenlinksourcing.netlify.app/quote.html" class="card-link" data-service="Private label">Request this option &rarr;</a>
         </article>
         <article class="card tier-card">
           <h3>Ready-to-brand catalogue</h3>
           <p>Factory-approved styles you can order quickly and brand as your own.</p>
           <p class="moq">Minimum: 20 per style</p>
-          <a href="#quote" class="card-link" data-service="Ready-to-brand catalogue">Request this option &rarr;</a>
+          <a href="https://greenlinksourcing.netlify.app/quote.html" class="card-link" data-service="Ready-to-brand catalogue">Request this option &rarr;</a>
         </article>
       </div>
     </div>
@@ -148,25 +166,25 @@
     <div class="container">
       <p class="eyebrow">Join us</p>
       <h2>Upcoming events</h2>
-      <p class="section-intro">Sessions for Nigerian creative business owners. Dates are being confirmed. Register your interest and we'll send you the details first.</p>
+      <p class="section-intro">Sessions for Nigerian creative business owners. Register your interest and we'll send you the details first.</p>
       <div class="event-grid">
         <article class="event-card">
-          <p class="event-date">[Date to confirm]</p>
+          <p class="event-date">April 14, 2027</p>
           <h3>Meet our sourcing team: Lagos Q&amp;A session</h3>
           <p>Ask our team anything about sourcing shoes and bags from China.</p>
-          <a href="#quote" class="btn btn-outline" data-event="Lagos Q&amp;A session">Register interest</a>
+          <a href="#signup" class="btn btn-outline" data-event="Lagos Q&amp;A session">Register interest</a>
         </article>
         <article class="event-card">
-          <p class="event-date">[Date to confirm]</p>
+          <p class="event-date">August 30, 2027</p>
           <h3>Shoe and bag design workshop</h3>
           <p>Turn your ideas into designs a factory can produce.</p>
-          <a href="#quote" class="btn btn-outline" data-event="Shoe and bag design workshop">Register interest</a>
+          <a href="#signup" class="btn btn-outline" data-event="Shoe and bag design workshop">Register interest</a>
         </article>
         <article class="event-card">
-          <p class="event-date">[Date to confirm]</p>
+          <p class="event-date">December 15, 2027</p>
           <h3>Factory visit recap</h3>
           <p>See what we look for when we visit and check a factory.</p>
-          <a href="#quote" class="btn btn-outline" data-event="Factory visit recap">Register interest</a>
+          <a href="#signup" class="btn btn-outline" data-event="Factory visit recap">Register interest</a>
         </article>
       </div>
     </div>
@@ -226,107 +244,63 @@
   </section>
   -->
 
-  <!-- Quote form -->
-  <section class="section section-alt" id="quote">
+  <!-- Newsletter sign-up -->
+  <section class="section section-alt" id="signup">
     <div class="container">
-      <div class="quote-layout">
-        <div class="quote-aside">
-          <p class="eyebrow">Request a quote</p>
-          <h2>Tell us about your range</h2>
-          <p>Share a few details and we'll reply within two working days, Lagos time. Prefer to talk? Message us on WhatsApp.</p>
-          <p><a href="https://wa.me/234XXXXXXXXXX" target="_blank" rel="noopener" class="text-link">Chat on WhatsApp &rarr;</a></p>
-          <p><a href="https://greenlinksourcing.netlify.app/quote.html" class="text-link">Use the full quote form &rarr;</a></p>
-          <p><a href="https://greenlinksourcing.netlify.app/faq.html" class="text-link">Read the FAQ &rarr;</a></p>
+      <div class="signup-layout">
+        <div class="signup-copy">
+          <p class="eyebrow">Newsletter</p>
+          <h2>Get business growth tips</h2>
+          <p>Practical advice on sourcing, pricing and growing your shoe and bag brand, sent straight to your inbox.</p>
+          <p class="signup-note">You can unsubscribe at any time.</p>
         </div>
 
-        <form id="campaign-form" name="campaign-quote" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="quote-form">
-          <input type="hidden" name="form-name" value="campaign-quote">
+        <form id="signup-form" name="newsletter-signup" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="quote-form">
+          <input type="hidden" name="form-name" value="newsletter-signup">
           <input type="hidden" name="source" value="">
-          <input type="hidden" name="campaign" value="">
           <input type="hidden" name="medium" value="">
+          <input type="hidden" name="campaign" value="">
+          <input type="hidden" name="interest" value="">
           <p class="hidden"><label>Don't fill this out: <input name="bot-field"></label></p>
 
-          <div class="form-row">
-            <div class="form-group">
-              <label for="c-name">Full name *</label>
-              <input id="c-name" name="name" type="text" autocomplete="name" required>
-            </div>
-            <div class="form-group">
-              <label for="c-business">Business name</label>
-              <input id="c-business" name="business" type="text" autocomplete="organization">
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="form-group">
-              <label for="c-email">Email *</label>
-              <input id="c-email" name="email" type="email" autocomplete="email" required>
-            </div>
-            <div class="form-group">
-              <label for="c-whatsapp">WhatsApp number *</label>
-              <input id="c-whatsapp" name="whatsapp" type="tel" placeholder="+234 800 000 0000" required>
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="form-group">
-              <label for="c-product">Product *</label>
-              <select id="c-product" name="product" required>
-                <option value="">Select one</option>
-                <option>Shoes</option>
-                <option>Bags</option>
-                <option>Both</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="c-service">Service *</label>
-              <select id="c-service" name="service" required>
-                <option value="">Select one</option>
-                <option>Custom order</option>
-                <option>Private label</option>
-                <option>Ready-to-brand catalogue</option>
-                <option>Not sure yet</option>
-              </select>
-            </div>
+          <div class="form-group">
+            <label for="s-name">Full name *</label>
+            <input id="s-name" name="name" type="text" autocomplete="name" required>
           </div>
 
           <div class="form-group">
-            <label for="c-event">Event (optional)</label>
-            <select id="c-event" name="event">
-              <option value="">No event, just a quote</option>
-              <option>Lagos Q&amp;A session</option>
-              <option>Shoe and bag design workshop</option>
-              <option>Factory visit recap</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label for="c-details">Details</label>
-            <textarea id="c-details" name="details" rows="4" placeholder="Materials, colours, sizes, quantity, deadline, or anything else we should know."></textarea>
+            <label for="s-email">Email *</label>
+            <input id="s-email" name="email" type="email" autocomplete="email" required>
           </div>
 
           <div class="form-group checkbox-group">
             <label>
-              <input type="checkbox" name="rights" required>
-              I confirm I have the right to share and use any designs, logos or images I submit.
+              <input type="checkbox" name="tips_consent" required>
+              I agree to receive business growth tips from Green Link Sourcing. *
             </label>
           </div>
 
           <div class="form-group checkbox-group">
             <label>
-              <input type="checkbox" name="consent" required>
-              I consent to Green Link Sourcing storing my details to respond to this enquiry. We use them only for this purpose.
+              <input type="checkbox" name="promo_consent">
+              I agree to receive promotional emails from Green Link Sourcing (optional).
             </label>
           </div>
 
-          <button type="submit" class="btn btn-primary btn-block">Send my request</button>
+          <div class="form-group checkbox-group">
+            <label>
+              <input type="checkbox" name="events_consent">
+              Send me details of upcoming events (optional).
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Sign up</button>
           <p class="form-status" role="status" aria-live="polite"></p>
         </form>
 
-        <div class="confirmation" id="campaign-confirmation" hidden>
-          <h2>Thank you!</h2>
-          <p>Your request has been received. Your reference number is <strong id="campaign-reference"></strong>.</p>
-          <p>We'll reply within two working days, Lagos time.</p>
+        <div class="confirmation" id="signup-confirmation" hidden>
+          <h2>You're on the list!</h2>
+          <p>Thanks for signing up. Watch your inbox for business growth tips.</p>
         </div>
       </div>
     </div>
@@ -340,43 +314,17 @@
         <p>We reply within two working days, Lagos time.</p>
       </div>
       <div class="cta-actions">
-        <a href="#quote" class="btn btn-light">Request a Quote</a>
+        <a href="https://greenlinksourcing.netlify.app/quote.html" class="btn btn-light">Request a Quote</a>
         <a href="https://wa.me/234XXXXXXXXXX" class="btn btn-ghost" target="_blank" rel="noopener">WhatsApp Us</a>
       </div>
     </div>
   </section>
 </main>
 
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div>
-      <p class="footer-brand">Green Link Sourcing</p>
-      <p>We help Nigerian creative business owners source quality shoes and bags from China.</p>
-    </div>
-    <div>
-      <p class="footer-heading">Contact</p>
-      <p>Email: <a href="mailto:sample@greenlink-demo.com">sample@greenlink-demo.com</a></p>
-      <p>WhatsApp: <a href="https://wa.me/234XXXXXXXXXX" target="_blank" rel="noopener">Chat with us</a></p>
-      <p>Office: 88 Example Road, Tianhe District, Guangzhou (sample address)</p>
-    </div>
-    <div>
-      <p class="footer-heading">Explore</p>
-      <div class="footer-links">
-        <a href="https://greenlinksourcing.netlify.app/">Home</a>
-        <a href="https://greenlinksourcing.netlify.app/services.html">Services</a>
-        <a href="https://greenlinksourcing.netlify.app/how-it-works.html">How It Works</a>
-        <a href="https://greenlinksourcing.netlify.app/faq.html">FAQ</a>
-        <a href="https://greenlinksourcing.netlify.app/quote.html">Request a Quote</a>
-        <a href="https://greenlinksourcing.netlify.app/account.html">My Account</a>
-      </div>
-    </div>
-  </div>
-  <p class="demo-note">Demo website for educational purposes. All contact details and examples are fictional.</p>
-</footer>
 
 <!-- Sticky call to action on phones -->
 <div class="mobile-cta" aria-label="Quick actions">
-  <a href="#quote" class="btn btn-primary">Request a Quote</a>
+  <a href="https://greenlinksourcing.netlify.app/quote.html" class="btn btn-primary">Request a Quote</a>
   <a href="https://wa.me/234XXXXXXXXXX" class="btn btn-outline" target="_blank" rel="noopener" data-whatsapp>WhatsApp</a>
 </div>
 

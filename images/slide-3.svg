@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-label="Brown leather loafers beside the words From sketch to store.">
+  <rect width="600" height="480" fill="#F7F6F1"/>
+  <circle cx="80" cy="130" r="90" fill="#FDE7B5" opacity="0.6"/>
+  <text x="48" y="92" font-family="Manrope, Arial, sans-serif" font-size="44" font-weight="800" fill="#14231A">From sketch</text>
+  <text x="48" y="146" font-family="Manrope, Arial, sans-serif" font-size="44" font-weight="800" fill="#15803D">to store.</text>
+  <g transform="translate(60 134) scale(1.2)">
+    <path d="M60 180 C58 140 74 96 118 86 C146 80 166 104 196 116 C236 132 268 142 302 152 C334 162 352 172 352 186 L60 186 Z" fill="#8B5A2B"/>
+    <path d="M96 120 C100 108 110 100 122 96" fill="none" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="5" stroke-linecap="round"/>
+    <path d="M150 118 L170 132 M166 110 L186 124 M182 102 L202 116" stroke="#E9D8C4" stroke-width="4" stroke-linecap="round"/>
+    <rect x="48" y="184" width="312" height="18" rx="9" fill="#2B1D14"/>
+  </g>
+</svg>
