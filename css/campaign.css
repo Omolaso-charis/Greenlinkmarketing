@@ -205,3 +205,32 @@
 @media (max-width: 760px) {
   .signup-layout .quote-form { padding: 1.25rem; }
 }
+
+/* Events section with a photo background */
+.events-section {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  color: var(--white);
+}
+.events-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../images/hero-shoes-bags.jpg") center / cover no-repeat;
+  z-index: -2;
+}
+.events-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, rgba(20, 83, 45, 0.94), rgba(20, 35, 26, 0.86));
+  z-index: -1;
+}
+.events-section h2 { color: var(--white); }
+.events-section .eyebrow { color: #86EFAC; }
+.events-section .section-intro { color: #DCFCE7; }
+.events-section .event-card { background: var(--white); }
+
+/* Keep the date pills at their natural height inside the event cards */
+.event-card .event-date { flex: none; }

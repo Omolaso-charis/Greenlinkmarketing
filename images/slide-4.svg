@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-label="Tote bag and green wallet beside the words Made to sell. Delivered to Lagos.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-label="Tote bag and green wallet beside the words Made to sell. Delivered to Nigeria.">
   <rect width="600" height="480" fill="#DCFCE7"/>
   <circle cx="300" cy="300" r="170" fill="#BBF7D0" opacity="0.55"/>
   <text x="48" y="92" font-family="Manrope, Arial, sans-serif" font-size="44" font-weight="800" fill="#14231A">Made to sell.</text>
-  <text x="48" y="146" font-family="Manrope, Arial, sans-serif" font-size="44" font-weight="800" fill="#15803D">Delivered to Lagos.</text>
+  <text x="48" y="146" font-family="Manrope, Arial, sans-serif" font-size="44" font-weight="800" fill="#15803D">Delivered to Nigeria.</text>
   <g transform="translate(40 150)">
     <path d="M150 150 Q150 66 200 66 Q250 66 250 150" fill="none" stroke="#2B1D14" stroke-width="10"/>
     <rect x="115" y="140" width="170" height="125" rx="16" fill="#B7763B"/>
